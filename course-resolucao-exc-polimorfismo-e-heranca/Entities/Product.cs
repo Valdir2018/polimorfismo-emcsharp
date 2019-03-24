@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace course_resolucao_exc_polimorfismo_e_heranca.Entities
 {
@@ -25,7 +26,9 @@ namespace course_resolucao_exc_polimorfismo_e_heranca.Entities
 
         public virtual string priceTag()
         {
-            return Name;
+            return Name
+                + " $ "
+                + Price.ToString("F2",CultureInfo.InvariantCulture);
                
         }
     }

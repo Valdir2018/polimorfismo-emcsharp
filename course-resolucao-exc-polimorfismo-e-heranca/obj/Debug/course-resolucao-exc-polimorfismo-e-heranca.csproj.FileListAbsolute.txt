@@ -1,0 +1,7 @@
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\obj\Debug\course-resolucao-exc-polimorfismo-e-heranca.csprojAssemblyReference.cache
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\obj\Debug\course-resolucao-exc-polimorfismo-e-heranca.csproj.CoreCompileInputs.cache
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\bin\Debug\course-resolucao-exc-polimorfismo-e-heranca.exe.config
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\bin\Debug\course-resolucao-exc-polimorfismo-e-heranca.exe
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\bin\Debug\course-resolucao-exc-polimorfismo-e-heranca.pdb
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\obj\Debug\course-resolucao-exc-polimorfismo-e-heranca.exe
+C:\PROGRAMACAO EM C#\polimorfismo-emcsharp\course-resolucao-exc-polimorfismo-e-heranca\obj\Debug\course-resolucao-exc-polimorfismo-e-heranca.pdb

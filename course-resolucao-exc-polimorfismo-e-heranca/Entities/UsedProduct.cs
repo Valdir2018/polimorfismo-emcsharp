@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace course_resolucao_exc_polimorfismo_e_heranca.Entities
 {
@@ -15,14 +16,18 @@ namespace course_resolucao_exc_polimorfismo_e_heranca.Entities
 
         }
 
-        public UsedProduct(DateTime manufactureDate, string name, double price) : base (name, price)
+        public UsedProduct(string name, double price, DateTime manufactureDate) : base (name, price)
         {
             ManufactureDate = manufactureDate;
         }
 
         public override string priceTag()
         {
-            return Name+ "(used) $" + Price + "(Manufacture date:)" + ManufactureDate;
+            return Name 
+                + "(used) $ " 
+                + Price.ToString("F2", CultureInfo.InvariantCulture) 
+                + "(Manufacture date: " 
+                + ManufactureDate.ToString("dd/MM/yyy") + ")";
         }
     }
 }
